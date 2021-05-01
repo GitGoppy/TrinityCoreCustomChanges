@@ -20,7 +20,12 @@ void AddLfgSoloScripts();
 
 // The name of this function should match:
 // void Add${NameOfDirectory}Scripts()
+
+void AddSC_AutoBalance();
+
 void AddCustomScripts()
 {
+    // VAS AutoBalance
+    AddSC_AutoBalance();
     AddLfgSoloScripts();
 }
